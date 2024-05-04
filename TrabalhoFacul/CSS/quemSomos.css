@@ -1,0 +1,132 @@
+*{ box-sizing: border-box;}
+a{text-decoration: none;}
+
+body{ 
+    margin: 0; 
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;}
+
+.container{
+    max-width: 1250px;
+    overflow: hidden;
+    padding: 0px 9px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#TopoDoSite{
+    background: #94cadd;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#TopoDoSite .Menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#TopoDoSite .Menu ul li{
+    display: inline-block;
+    padding: 15px;
+    font-weight: 500;
+}
+.Menu ul li a{color: #ffffff;}
+
+#TopoDoSite .NomeDoSite{
+    float: left;
+    vertical-align: middle;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#TopoDoSite .NomeDoSite img{vertical-align: middle;}
+
+#TopoDoSite .Menu{float: right;}
+
+#conteudo .container{ background: rgb(247, 247, 247)f7; }
+
+#conteudo{
+    min-height: 1200px;
+}
+
+#banner{
+    width: 195px;
+    height: auto;
+    background-color: rgb(5, 5, 5); 
+    border-top-right-radius: 20px;
+    padding: 24px 0px 24px 0px;
+    color: #ffffff;
+}
+
+#banner h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.imagem{
+    float: right;
+    padding-top: 65px;
+}
+
+
+.frase{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.background{
+    background: url(../images/pexels-juanpphotoandvideo-1250452.jpg);
+    height: 265px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.secao{
+    padding-left: 15px;
+    height: 205px;
+    background-color: #e6e6e6e0;
+    border-radius: 10px;
+}
+
+.secao h1, .secao01 h1, .secao02 h1{
+    padding-top: 20px;
+}
+.secao p, .secao01 p, .secao02 p{
+    font-size: 20px;
+}
+
+.secao01{
+  padding-left: 15px;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+  
+.subtopicos{
+  width: 738px;} 
+}
+
+.secao02{
+    padding-left: 15px;
+    height: 235px; 
+    background-color: #e6e6e6e0; 
+    border-radius: 10px;
+}
+
+.subtopicos{
+    text-align: justify;
+    width: 1164px;
+}
+
+.secaoIMG{
+    float: right;
+    padding-right: 30px;
+    padding-top: 15px;
+
+}
