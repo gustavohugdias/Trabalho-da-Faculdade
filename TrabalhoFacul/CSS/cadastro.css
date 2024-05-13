@@ -22,7 +22,6 @@ body{
     list-style: none;
     padding: 0;
     margin: 0;
-    
 }
 
 #TopoDoSite .Menu ul li{
@@ -30,21 +29,27 @@ body{
     padding: 15px;
     font-weight: 500;
 }
-.Menu ul li a{
-    color: #ffffff;
-}
+.Menu ul li a{color: #ffffff;}
 
 #TopoDoSite .NomeDoSite{
-float: left;
-vertical-align: middle;
-font-weight: bolder;
-text-transform: uppercase;
-padding-top: 15px;
-color: #ffffff;
-font-size: 20px;}
-
-#TopoDoSite .NomeDoSite img{
+    float: left;
     vertical-align: middle;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 20px;
 }
 
+#TopoDoSite .NomeDoSite img{vertical-align: middle;}
+
 #TopoDoSite .Menu{float: right;}
+
+.blocoPrincipal{
+    background-color: #80808061;
+    height: 600px;
+    width: 900px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+  

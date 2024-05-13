@@ -7,10 +7,13 @@ body{
     font-family: "Montserrat", Arial, Helvetica, sans-serif;}
 
 .container{
-    max-width: 1200px;
+    max-width: 1250px;
+    overflow: hidden;
+    padding: 0px 9px;
     width: 100%;
     margin: 0 auto;
 }
+
 
 #TopoDoSite{
     background: #94cadd;
@@ -22,7 +25,6 @@ body{
     list-style: none;
     padding: 0;
     margin: 0;
-    
 }
 
 #TopoDoSite .Menu ul li{
@@ -30,22 +32,117 @@ body{
     padding: 15px;
     font-weight: 500;
 }
-.Menu ul li a{
-    color: #ffffff;
+.Menu ul li a{color: #ffffff;}
+
+.Menu ul li a:hover{
+    color: rgb(157, 172, 255);
 }
 
 #TopoDoSite .NomeDoSite{
-float: left;
-vertical-align: middle;
-font-weight: bolder;
-text-transform: uppercase;
-padding-top: 15px;
-color: #ffffff;
-font-size: 20px;}
-
-#TopoDoSite .NomeDoSite img{
+    float: left;
     vertical-align: middle;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 20px;    
 }
 
+#TopoDoSite .NomeDoSite img{vertical-align: middle;}
+
 #TopoDoSite .Menu{float: right;}
+
+#conteudo{
+    min-height: 1200px;
+}
+
+.background{
+    background: url(../images/Banner.png);
+    width: auto;
+    border-radius: 5px;
+    height: 264px;
+}
+
+#textos{
+    
+    .mainTitle{
+        font-size: 60px;
+        color: #ffffff;
+        margin: 0;
+        font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-top: 75px;
+    
+    }
+    
+    .frase{
+        color: #ffffff;
+        font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+#conteudoPrincipal{
+
+    h1{
+        font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+        font-weight: 100;     
+    }
+
+    .texto2{
+        font-size: 23px;
+        text-align: justify;
+        width: 800px;
+        font-weight: 500;
+    }
+}
+
+.botao{
+
+    ul{
+        list-style: none;
+        display: contents;
+        position: relative;  
+    }
+
+    ul li span{
+        position: absolute;
+    }
+
+    .icone{
+        color: #fff;
+        font-size: 2.2em;
+    }
+
+    .textoBotao{
+        color: #ffffff;
+        font-size: 20px;
+        padding-top: 9px;
+        font-weight: 600;
+        transform: scale(0);
+        transition: .2s;
+    }
+}
+
+.botao ul li{
+    
+    width: 380px;
+    height: 80px;
+    background-color: #94a5f9;
+    
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    border-radius: 25px;
+    position: relative;
+
+    transition: .3s;
+}
+
+.botao ul li:hover{
+    width: 800px;
+
+}
 

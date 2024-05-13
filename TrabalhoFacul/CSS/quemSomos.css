@@ -48,8 +48,6 @@ body{
 
 #TopoDoSite .Menu{float: right;}
 
-#conteudo .container{ background: rgb(247, 247, 247)f7; }
-
 #conteudo{
     min-height: 1200px;
 }
@@ -57,7 +55,7 @@ body{
 #banner{
     width: 195px;
     height: auto;
-    background-color: rgb(5, 5, 5); 
+    background-color: rgb(154 171 255 / 94%);    
     border-top-right-radius: 20px;
     padding: 24px 0px 24px 0px;
     color: #ffffff;
@@ -81,11 +79,9 @@ body{
 }
 
 .background{
-    background: url(../images/pexels-juanpphotoandvideo-1250452.jpg);
-    height: 265px;
+    background: url(../images/Banner.png);
     width: auto;
-    background-size: cover;
-    background-position: center;
+    border-radius: 5px;
 }
 
 .secao{
