@@ -1,0 +1,137 @@
+*{ padding: 0;
+    margin: 0; 
+    outline: none;
+    border: none; 
+    box-sizing: border-box; 
+} 
+ 
+html{scroll-behavior: smooth;}
+
+ a{text-decoration: none;} 
+ 
+ body{ font-family: "Montserrat", Arial, Helvetica, sans-serif; } 
+ 
+ #TopoDoSite .container{ 
+     width: 100%; 
+     margin: 0 auto; 
+     display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+ } 
+ 
+ #TopoDoSite{ background-color: #706eff80; 
+     padding: 2px; 
+     overflow: hidden; 
+ } 
+ 
+ .logo{max-width: 136px;} 
+ 
+ img{ width: 100%;
+      display: flex; 
+ } 
+ 
+ #TopoDoSite #Menu ul li{ 
+     padding: 20px; 
+     font-weight: 600; 
+     font-size: 18px; 
+     font-family: 'Bebas Neue Static', Arial, Helvetica, sans-serif; 
+ } 
+ 
+ #Menu ul li a{ 
+     color: #ffffff; 
+     position: relative; 
+     padding-bottom: 0.75em; 
+     text-decoration: none;
+ } 
+ 
+ #Menu ul li a::after{ 
+     content: ""; 
+     position: absolute; 
+     height: 3px; 
+     width: 0px; 
+     bottom: 0; 
+     left: 0; 
+     background-color: rgb(252 215 253);
+     transition: all 0.4s ease; 
+ } 
+ 
+ #Menu ul li a:hover::after{ width: 100%; } 
+ 
+ #Menu .links{ 
+     display: flex; 
+     align-items: center; 
+     list-style: none; 
+     padding-top: 25px; 
+ } 
+ 
+.botaoDeDoacao{
+    width: auto;
+    height: auto;
+    margin: 0px 0 0 20px;   
+}
+
+.btn.btn-primary{
+    background-color: #7e66ff; 
+    font-weight: 500; 
+    font-size: 22px;
+    border: 0;
+    width: 100px; 
+}
+
+.btn.btn.btn-primary:hover{
+    background-color:  rgb(252 215 253);
+}
+
+#banner{
+    padding-top: 15px;
+    background-color: #fff7eccc;
+    overflow: hidden;
+    padding: 25px 15px;
+    margin-bottom: 100px;
+    /* height: 783px; */
+}
+
+.bloco{
+    width: 50%;
+    float: left;
+
+    img{
+        width: 60%;
+        height: auto;
+        margin-left: 195px;
+        position: relative;
+    }
+    
+    h2{
+        font-size: 41px
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    span{
+        font-weight: 700;
+    }
+
+    .btn.btn-primary a{
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+    }   
+
+    .btn.btn-primary{
+        background-color: #7e66ff;
+        width: 350px; 
+    }
+
+    a{
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+}
+
+
+  

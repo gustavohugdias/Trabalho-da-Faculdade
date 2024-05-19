@@ -1,0 +1,238 @@
+*{ padding: 0;
+    margin: 0; 
+    outline: none;
+    border: none; 
+    box-sizing: border-box; 
+} 
+ 
+html{scroll-behavior: smooth;}
+
+ a{text-decoration: none;} 
+ 
+ body{ font-family: "Montserrat", Arial, Helvetica, sans-serif; } 
+ 
+ #TopoDoSite .container{ 
+     width: 100%; 
+     margin: 0 auto; 
+     display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+ } 
+ 
+ #TopoDoSite{ background-color: #706eff80; 
+     padding: 2px; 
+     overflow: hidden; 
+ } 
+ 
+ .logo{max-width: 136px;} 
+ 
+ img{ width: 100%;
+      display: flex; 
+ } 
+ 
+ #TopoDoSite #Menu ul li{ 
+     padding: 20px; 
+     font-weight: 600; 
+     font-size: 18px; 
+     font-family: 'Bebas Neue Static', Arial, Helvetica, sans-serif; 
+ } 
+ 
+ #Menu ul li a{ 
+     color: #ffffff; 
+     position: relative; 
+     padding-bottom: 0.75em; 
+     text-decoration: none;
+ } 
+ 
+ #Menu ul li a::after{ 
+     content: ""; 
+     position: absolute; 
+     height: 3px; 
+     width: 0px; 
+     bottom: 0; 
+     left: 0; 
+     background-color: rgb(252 215 253);
+     transition: all 0.4s ease; 
+ } 
+ 
+ #Menu ul li a:hover::after{ width: 100%; } 
+ 
+ #Menu .links{ 
+     display: flex; 
+     align-items: center; 
+     list-style: none; 
+     padding-top: 25px; 
+ } 
+ 
+.botaoDeDoacao{
+    width: auto;
+    height: auto;
+    margin: 0px 0 0 20px;   
+}
+
+.btn.btn-primary{
+    background-color: #7e66ff; 
+    font-weight: 500; 
+    font-size: 22px;
+    border: 0;
+    width: 100px; 
+
+}
+
+.btn.btn.btn-primary:hover{
+    
+background-color:  rgb(252 215 253);
+}
+
+
+#banner{
+    background-color: #fff7eccc;
+    overflow: hidden;
+    padding: 25px 15px;
+    margin-bottom: 40px;
+}
+
+.bloco{
+    width: 50%;
+    float: left;
+
+    img{
+        width: 60%;
+        height: auto;
+        margin-left: 195px;
+        position: relative;
+    }
+    
+    h2{
+        font-size: 52px
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    span{
+        font-weight: 700;
+    }
+
+    .btn.btn-primary a{
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+    }   
+
+    .btn.btn-primary{
+        background-color: #7e66ff;
+        width: 350px; 
+    }
+
+
+    a{
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+}
+
+.row .col{
+
+    h2{
+        font-size: 45px;
+        font-weight: 500;
+        text-align: start;
+    }
+
+    p{
+        padding-left: 5px;
+        width: 350px;
+        text-align: justify;
+        font-size: 19px;
+    }
+
+    .fonte{
+        font-size:11px ;
+    }
+
+    a{
+        text-decoration: none;
+        display: flex;
+    }
+    
+}
+
+#secaocontatos{
+    margin-top: 70px;
+    background-color: #fff7eccc;
+    height: 340px;
+    border-radius: 12px;
+}
+
+#secaocontatos img{
+    width: 40%;
+    padding-top: 40px;
+}
+
+.c{
+    padding-top: 40px;
+}
+
+.c h2{
+    font-family: 'Chelsea Market';
+}
+
+ .c .Cfrases{
+    font-size: 19px;
+    text-align: start; 
+} 
+
+.contactButton {
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45em;
+    margin-top: 11px;
+    margin-left: 5px;
+    padding-left: 1em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+  }
+  
+  .iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+  .contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+  
+.contactButton a{
+    color: #ffffff;
+}

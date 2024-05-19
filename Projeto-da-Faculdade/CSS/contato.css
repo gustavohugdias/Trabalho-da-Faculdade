@@ -1,0 +1,180 @@
+*{ padding: 0;
+    margin: 0; 
+    outline: none;
+    border: none; 
+    box-sizing: border-box; 
+} 
+ 
+html{scroll-behavior: smooth;}
+
+
+ a{text-decoration: none;} 
+ 
+ body{ font-family: "Montserrat", Arial, Helvetica, sans-serif; } 
+ 
+ #TopoDoSite .container{ 
+     width: 100%; 
+     margin: 0 auto; 
+     display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+ } 
+ 
+ #TopoDoSite{ background-color: #706eff80; 
+     padding: 2px; 
+     overflow: hidden; 
+ } 
+ 
+ .logo{max-width: 136px;} 
+ 
+ img{ width: 100%;
+      display: flex; 
+ } 
+ 
+ #TopoDoSite #Menu ul li{ 
+     padding: 20px; 
+     font-weight: 600; 
+     font-size: 18px; 
+     font-family: 'Bebas Neue Static', Arial, Helvetica, sans-serif; 
+ } 
+ 
+ #Menu ul li a{ 
+     color: #ffffff; 
+     position: relative; 
+     padding-bottom: 0.75em; 
+     text-decoration: none;
+ } 
+ 
+ #Menu ul li a::after{ 
+     content: ""; 
+     position: absolute; 
+     height: 3px; 
+     width: 0px; 
+     bottom: 0; 
+     left: 0; 
+     background-color: rgb(252 215 253);
+     transition: all 0.4s ease; 
+ } 
+ 
+ #Menu ul li a:hover::after{ width: 100%; } 
+ 
+ #Menu .links{ 
+     display: flex; 
+     align-items: center; 
+     list-style: none; 
+     padding-top: 25px; 
+ } 
+ 
+.botaoDeDoacao{
+    width: auto;
+    height: auto;
+    margin: 0px 0 0 20px;   
+}
+
+.btn.btn-primary{
+    background-color: #7e66ff; 
+    font-weight: 500; 
+    font-size: 22px;
+    border: 0;
+    width: 100px; 
+}
+
+.btn.btn.btn-primary:hover{
+    background-color:  rgb(252 215 253);
+}
+
+.titulo1{
+
+    h1{
+    font-size: 32px;
+    padding-top: 7px;
+    font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+    }
+
+    p{
+        font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 27px;
+    }
+}
+
+.Imagem{
+    width: 40%;
+    height: auto;
+    float: right;
+    padding-top: 50px;
+}
+
+#formularios{
+    width: 50%;
+}
+
+#formularios input{ 
+  padding: 10px;   
+  border-radius: 10px;
+  width: 450px; 
+  background: #e6e6e6e0;
+  margin-bottom: 12px;
+  display: block;
+} 
+
+#formularios .areadetexto{
+    border-radius: 10px;
+    background: #e6e6e6e0;
+    margin-bottom: 12px;
+    display: block;
+    resize: none;
+    width: 450px;
+    height: 240px;
+}
+  
+#formularios label{ font-weight: bolder;}
+
+.botao{
+    background-color:#7e66ff;
+    border: none;
+    border-radius: 6px;
+    min-width: 200px;
+    min-height: 58px;
+    margin-top: 2px;
+    color: #ffffff;
+    font-weight:bolder;
+    font-size: 14px;
+}
+
+.botao:hover{
+    background-color: rgb(33 54 247);
+    transition: all 0.8s ease;
+}
+
+.titulo p{
+    font-weight: bolder;
+    font-family: 'Chelsea Market';
+    font-weight: 100;
+    font-size: 20px;
+  }
+  
+#secaodecontatos{
+    display: inline-flex;
+    width: 100%;
+    min-height: 207px;
+}
+  
+  .bloco1, .bloco2, .bloco3, .bloco4{
+    height: 200px;
+    width: 320px;
+    background-color: #e6e6e6e0;
+    padding: 5px;
+    text-align: center;
+    margin-right: 25px;
+    border-radius: 6px;}
+  
+  .tituloDeContato{
+    padding-top: 21px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 20px;
+}
+  
+  .bloco1 p, .bloco2 p, .bloco4 p {padding-top: 20px;}
+  

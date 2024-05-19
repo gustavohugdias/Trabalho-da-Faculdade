@@ -1,0 +1,144 @@
+*{ padding: 0;
+    margin: 0; 
+    outline: none;
+    border: none; 
+    box-sizing: border-box; 
+ } 
+ 
+ a{text-decoration: none;} 
+ 
+ body{ font-family: "Montserrat", Arial, Helvetica, sans-serif; } 
+ 
+ #TopoDoSite .container{ 
+     width: 100%; 
+     margin: 0 auto; 
+     display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+ } 
+ 
+ #TopoDoSite{ background-color: #706eff80; 
+     padding: 2px; 
+     overflow: hidden; 
+ } 
+ 
+ .logo{max-width: 136px;} 
+ 
+ img{ width: 100%;
+      display: flex; 
+ } 
+ 
+ #TopoDoSite #Menu ul li{ 
+     padding: 20px; 
+     font-weight: 600; 
+     font-size: 18px; 
+     font-family: 'Bebas Neue Static', Arial, Helvetica, sans-serif; 
+ } 
+ 
+ #Menu ul li a{ 
+     color: #ffffff; 
+     position: relative; 
+     padding-bottom: 0.75em; 
+     text-decoration: none;
+ } 
+ 
+ #Menu ul li a::after{ 
+     content: ""; 
+     position: absolute; 
+     height: 3px; 
+     width: 0px; 
+     bottom: 0; 
+     left: 0; 
+     background-color: rgb(252 215 253);
+     transition: all 0.4s ease; 
+ } 
+ 
+ #Menu ul li a:hover::after{ width: 100%; } 
+ 
+ #Menu .links{ 
+     display: flex; 
+     align-items: center; 
+     list-style: none; 
+     padding-top: 25px; 
+ } 
+ 
+.botaoDeDoacao{
+    width: auto;
+    height: auto;
+    margin: 0px 0 0 20px;   
+}
+
+.btn.btn-primary{
+    background-color: #7e66ff; 
+    font-weight: 500; 
+    font-size: 22px;
+    border: 0;
+    width: 100px; 
+}
+
+.btn.btn.btn-primary:hover{
+    background-color:  rgb(252 215 253);
+} 
+
+ #banner{
+    width: auto;
+    background-color: rgb(255 255 255 / 94%); 
+    filter: opacity(90%);
+}
+#banner h2{
+    width: 45%;
+    text-align: center;
+    padding: 14px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.imagem{
+    float: right;
+    margin-top: 80px;
+    width: 35%;
+    height: auto;
+}
+
+.seçao {
+    padding-top: 15px;    
+}
+
+/* .background{
+    border-radius: 12px;
+    background-color: #c9dfec;
+    width: auto;
+    height: 280px;
+}
+
+
+video{
+    width: 15%;
+}
+
+.gif img{
+    width: 30%;
+    height: auto;
+} */
+
+.menu{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.tituloDaLista{
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.fraseMenu h2{
+    font-family: 'Chelsea Market';
+    font-weight: 100;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+#menu li p{
+    font-size: 24px;
+    text-align: justify;
+}

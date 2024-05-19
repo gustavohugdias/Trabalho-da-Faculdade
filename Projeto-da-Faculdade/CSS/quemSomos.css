@@ -1,0 +1,173 @@
+*{ padding: 0;
+    margin: 0; 
+    outline: none;
+    border: none; 
+    box-sizing: border-box; 
+ } 
+ 
+ a{text-decoration: none;} 
+ 
+ body{ font-family: "Montserrat", Arial, Helvetica, sans-serif; } 
+ 
+ #TopoDoSite .container{ 
+     width: 100%; 
+     margin: 0 auto; 
+     display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+ } 
+ 
+ #TopoDoSite{ background-color: #706eff80; 
+     padding: 2px; 
+     overflow: hidden; 
+ } 
+ 
+ .logo{max-width: 136px;} 
+ 
+ img{ width: 100%;
+      display: flex; 
+ } 
+ 
+ #TopoDoSite #Menu ul li{ 
+     padding: 20px; 
+     font-weight: 600; 
+     font-size: 18px; 
+     font-family: 'Bebas Neue Static', Arial, Helvetica, sans-serif; 
+ } 
+ 
+ #Menu ul li a{ 
+     color: #ffffff; 
+     position: relative; 
+     padding-bottom: 0.75em; 
+     text-decoration: none;
+ } 
+ 
+ #Menu ul li a::after{ 
+     content: ""; 
+     position: absolute; 
+     height: 3px; 
+     width: 0px; 
+     bottom: 0; 
+     left: 0; 
+     background-color: rgb(252 215 253);
+     transition: all 0.4s ease; 
+ } 
+ 
+ #Menu ul li a:hover::after{ width: 100%; } 
+ 
+ #Menu .links{ 
+     display: flex; 
+     align-items: center; 
+     list-style: none; 
+     padding-top: 25px; 
+ } 
+ 
+.botaoDeDoacao{
+    width: auto;
+    height: auto;
+    margin: 0px 0 0 20px;   
+}
+
+.btn.btn-primary{
+    background-color: #7e66ff; 
+    font-weight: 500; 
+    font-size: 22px;
+    border: 0;
+    width: 100px; 
+}
+    
+.btn.btn.btn-primary:hover{
+    background-color:  rgb(252 215 253);
+}    
+
+.background{
+    background: url(../Imagens/Banner.png);
+    width: auto;
+    border-radius: 5px;
+}
+
+.banner{
+    width: 195px;
+    height: auto;
+    background-color: rgb(154 171 255 / 94%);    
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    padding: 24px 0px 24px 0px;
+    color: #ffffff;
+}
+
+.banner h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.frase {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+#conteudoPrincipal{
+    margin-top: 15px;
+    height: 880px;
+}
+
+.topico1 h1, .topico2 h1, .topico3 h1{
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.topico1{
+    padding-left: 15px;
+    height: 205px;
+    background-color: #e6e6e6e0;
+    border-radius: 10px;
+}
+
+.topico1 p{
+    font-size: 20PX;
+    text-align: justify;
+    font-weight: 400;
+    width: 95%;
+}
+
+.topico2{
+    padding-left: 15px;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+
+.topico2 p{
+    width: 65%;
+    text-align: justify;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.secaoIMG{
+    float: right;
+    height: auto;
+    padding-top: 35px;
+    width: 30%;
+}
+
+
+.topico3{
+    margin-top: 20px;
+    padding-left: 15px;
+    height: 265px; 
+    background-color: #e6e6e6e0; 
+    border-radius: 10px;
+}
+
+.topico3 p{
+    font-size: 21px;
+    font-weight: 400;
+    text-align: justify;
+    width: 98%;
+}
+
