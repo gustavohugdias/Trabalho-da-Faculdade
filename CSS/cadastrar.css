@@ -104,7 +104,9 @@ header{
         margin-bottom: 20px;
     }
 
-
+span .negrito{
+    font-weight:700
+}
 
 /* .seçao{
     margin-top: 4rem; 
