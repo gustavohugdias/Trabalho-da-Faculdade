@@ -251,7 +251,7 @@
                             <span class="btnText">Voltar</span>
                         </div>
                         
-                        <button onclick="enviarFORM()" type="submit">
+                        <button type="submit">
                           Enviar
                         </button>
                     </div>
@@ -281,6 +281,8 @@
         <div class="separador"></div> 
     </footer>
 
+    </body>
+    
     <!-- JS DO FORMULÁRIO -->
     <script>
         const form = document.querySelector("form"),
@@ -301,14 +303,8 @@
 
         backBtn.addEventListener("click", () => form.classList.remove('secActive'));
 
-        function enviarFORM(){
-            alert("Formulário enviado com sucesso!")
-        }
-
     </script>
 
     <script src="../JS/script-navbar.js"></script>
         
-
-    </body> 
     </html> 
