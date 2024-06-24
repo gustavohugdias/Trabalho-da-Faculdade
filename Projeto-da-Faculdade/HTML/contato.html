@@ -49,10 +49,10 @@
               
               <form id="formularios">
                 <label> Nome completo: </label> 
-                <input type="text" name="nome" placeholder="Digite seu nome." required> 
+                <input type="text" name="nome" placeholder="Digite seu nome." class="inputs required"> 
                 
                 <label> Email: </label> 
-                <input type="email" name="email" placeholder="Digite seu email." required>
+                <input type="email" name="email" placeholder="Digite seu email." class="inputs required">
                 
                 <label> Telefone: </label> 
                 <input type="tel" name="telefone" maxlength="11"   placeholder="Digite seu telefone."> 
@@ -61,7 +61,7 @@
                 <input type="text" name="assuntoDaMensagem" placeholder="Digite o assunto da mensagem."> 
                 
                 <label> Mensagem: </label> 
-                <textarea name="campoDeMensagem" class="areadetexto" placeholder="Digite a mensagem que deseja enviar." required> </textarea> 
+                <textarea name="campoDeMensagem" class="areadetexto" placeholder="Digite a mensagem que deseja enviar." class="inputs required"> </textarea> 
             
                 <button onclick="enviarFORM()"  class="botao" type="submit"> Enviar  </button>
             </form>
@@ -150,9 +150,12 @@
           </footer>
 
           <script>
-            function enviarFORM(){
-                alert("Enviado com sucesso!")
-            }
+            const form   = document.getElementById('formularios');
+            const campos = document.querySelectorAll('.required');
+              
+               if (campos == ""){
+                   alert("Por favor, preencha o formulário corretamente.)
+               }
           </script>
 
           <script src="../JS/script-navbar.js"></script>
